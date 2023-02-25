@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>My Cart</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+   
+    <div class="navigation">
+      <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>mycart</h1></a>
+
+        <ul class="nav-list d-flex">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a href="product.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+          <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="icons d-flex">
+          <a href="login.html" class="icon">
+            <i class="bx bx-user"></i>
+          </a>
+          <div class="icon">
+            <i class="bx bx-search"></i>
+          </div>
+          <div class="icon">
+            <i class="bx bx-heart"></i>
+            <span class="d-flex">0</span>
+          </div>
+          <a href="cart.html" class="icon">
+            <i class="bx bx-cart"></i>
+            <span class="d-flex">0</span>
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <i class="bx bx-menu-alt-left"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cart Items -->
+    <div class="container cart">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="9.png" alt="" />
+              <div>
+                <p>Bag</p>
+                <span>Price: ₹599</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₹549.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="10.png" alt="" />
+              <div>
+                <p>Hoodie</p>
+                <span>Price: ₹799</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₹599.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="15.png" alt="" />
+              <div>
+                <p>MC shoes</p>
+                <span>Price: ₹80 Hazar</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₹Tera ghar jayenga</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="12.png" alt="" />
+              <div>
+                <p>Jacket</p>
+                <span>Price: ₹499</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₹439.00</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="13.png" alt="" />
+              <div>
+                <p>T-Shirt</p>
+                <span>Price: ₹399</span> <br />
+                <a href="#">remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" min="1" /></td>
+          <td>₹149.00</td>
+        </tr>
+      </table>
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>₹81736</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>₹50</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>₹Tere aukad k bahar</td>
+          </tr>
+        </table>
+        <a href="#" class="checkout btn">Proceed To Gpay</a>
+      </div>
+    </div>
+
+    <!-- Latest Products -->
+    <section class="section featured">
+      <div class="top container">
+        <h1>Brought Together</h1>
+        <a href="#" class="view-more">View more</a>
+      </div>
+      <div class="product-center container">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="14.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S tshirt</span>
+            <a href="">pure cotton</a>
+            <h4>₹150</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="11.png" alt="" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>Soft Hoodie</span>
+            <a href="">summmer collection</a>
+            <h4>₹1500</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="9.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Bagpack</span>
+            <a href="">Cearthbag best bag</a>
+            <h4>₹550</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="10.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Winter Hoodie</span>
+            <a href="">Hoodie for foodie</a>
+            <h4>₹750</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+     <!-- 
+      ========================
+      Footer
+    =======================
+    -->
+    <section class="section contact">
+      <div class="row">
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>We love our customers and they can reach us any time
+          of day we will be at your service 24/7</p>
+          <a href="contact.html" class="btn btn-1">Contact</a>
+        </div>
+        <div class="col">
+          <form action="Image is not processed">
+            <div>
+              <input type="email" placeholder="Email Address">
+            <a href="Image is not processed">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="bottom_icon">
+      <img src="facebook.png" alt="Image not processed" class="bot_icon four">
+      <img src="youtube.png" alt="Image not processed" class="bot_icon five ">
+      <img src="linkedin.png" alt="Image not processed" class="bot_icon one ">
+        <img src="instagram.png" alt="Image not processed" class="bot_icon two">
+          <img src="twitter.png" alt="Image not processed" class="bot_icon three">
+      </div>
+    </section>
+
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

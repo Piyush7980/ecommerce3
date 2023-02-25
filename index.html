@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!-- 
+      =============
+      Boxicons\
+    ===============
+    -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- 
+      ================
+      Glide js 
+    =================
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+    <!-- ================Custom StyleSheet ===============-->
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>mycart</title>
+  </head>
+  <body>
+    <!-- 
+      =============
+      Header
+    ======================
+    -->
+    <header class="header" id="header">
+      <!-- Top Nav -->
+      <!-- <div class="top-nav">
+        <div class="container d-flex">
+          <p>Order now Or regret</p>
+          <ul class="d-flex">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>mycart</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Shop</a>
+            </li>
+            <li class="nav-item">
+            <a href="contact.html" class="nav-link">Terms</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+    <div class="hero">
+      <div class="glide" id="glide_1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span class="Image is not processed">Suggested by our TOP models</span>
+                  <h1 class="Image is not processed">Trendy COLLECTION!</h1>
+                  <p>Shop it before getting out of stock</p>
+                  <a href="product.html" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                    <img class="img1" src="2.png" alt="Image is not processed">
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span>Best seller 2022</span>
+                  <h1>You like IT we Deliver it!!</h1>
+                  <p>Trendy collection for men and women </p>
+                  <a href="product.html" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img2" src="1.png" alt="Image is not processed">
+                </div>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div class="center">
+                <div class="left">
+                  <span>Limited time SALE!!</span>
+                  <h1>Women wear at 60% off</h1>
+                  <p>+ coupon code and card discount also available</p>
+                  <a href="product.html" class="hero-btn">SHOP NOW</a>
+                </div>
+                <div class="right">
+                  <img class="img2" src="3.png" alt="Image is not processed">
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </header>
+
+    <!-- Categories Section -->
+    <section class="section category">
+      <div class="cat-center">
+        <div class="cat">
+          <img src="5.jpg" alt="Image is not processed" />
+          <div>
+            <a href="product.html">
+            <p>WOMEN'S WEAR</p>
+            </a>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="6.jpg" alt="Image is not processed" />
+          <div>
+            <a href="product.html">
+            <p>ACCESSORIES</p>
+            </a>
+          </div>
+        </div>
+        <div class="cat">
+          <img src="7.jpg" alt="Image is not processed" />
+          <div>
+            <a href="product.html">
+            <p>MEN'S WEAR</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>NEW ARRIVALS</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="8.png" alt="Image is not processed" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>WOMEN's tShirt</span>
+            <a href="productDetails.html">Pure cotton</a>
+            <h4>₹279</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="9.png" alt="Image is not processed" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+
+          <div class="product-info">
+            <span>UNISEX Bag</span>
+            <a href="productDetails.html">Rough n Tough</a>
+            <h4>₹799</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="14.png" alt="Image is not processed" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN's tshirt</span>
+            <a href="productDetails.html">Ultra light</a>
+            <h4>₹159</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="11.png" alt="Image is not processed" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S Jacket</span>
+            <a href="productDetails.html">Gray classy look</a>
+            <h4>₹903</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="12.png" alt="Image is not processed" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>HOODIE</span>
+            <a href="productDetails.html">Best for this winter</a>
+            <h4>₹999</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="13.png" alt="Image is not processed" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>tshirt</span>
+            <a href="productDetails.html">Unisex green tshirt</a>
+            <h4>₹399</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="10.png" alt="Image is not processed" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>WOMEN'S Jacket</span>
+            <a href="productDetails.html">Stay hot in winters too!</a>
+            <h4>₹1299</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="productDetails.html" class="product-thumb">
+              <img src="15.png" alt="Image is not processed" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Casual Shoes</span>
+            <a href="productDetails.html">Casual shoes by luma</a>
+            <h4>₹80000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!--
+      ========================
+      Promo
+    ===================================
+    -->
+
+    <section class="section banner">
+<div class="left">
+  <span class="trend">New Trend</span>
+  <h1>Latest Collection 2023</h1>
+  <p>Just Launched <span class="color">Sale 70% OFF</span> Limited Time Offer</p>
+  <a href="product.html" class="btn btn-1">Shop Now</a>
+</div>
+<div class="right">
+  <img src="4.png" alt="Image is not processed">
+</div>
+    </section>
+
+
+
+
+    <!-- 
+      ============================
+      Featured 
+    =================================
+    -->
+  
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>Featured</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="Image is not processed" class="product-thumb">
+              <img src="9.png" alt="Image is not processed" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>Luxury Jhola</span>
+            <a href="productDetails.html">Only for fakir aamdi</a>
+            <h4>₹499</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="Image is not processed" class="product-thumb">
+              <img src="13.png" alt="Image is not processed" />
+            </a>
+          </div>
+
+          <div class="product-info">
+            <span>Eco tshirt</span>
+            <a href="productDetails.html">Wear this and start farming</a>
+            <h4>₹59</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="Image is not processed" class="product-thumb">
+              <img src="15.png" alt="Image is not processed" />
+            </a>
+            <span class="discount">40%</span>
+          </div>
+          <div class="product-info">
+            <span>80 hazar k shoes</span>
+            <a href="productDetails.html">Tera ghar jayenga isme mat dekh</a>
+            <h4>₹80000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="Image is not processed" class="product-thumb">
+              <img src="11.png" alt="Image is not processed" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>Hoodie</span>
+            <a href="productDetails.html">Hoodie for foodie to cover ur belly</a>
+            <h4>₹899</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+
+    </section>
+
+    <!-- 
+      ========================
+      Footer
+    =======================
+    -->
+    <section class="section contact">
+      <div class="row">
+        <div class="col">
+          <h2>EXCELLENT SUPPORT</h2>
+          <p>We love our customers and they can reach us any time
+          of day we will be at your service 24/7</p>
+          <a href="contact.html" class="btn btn-1">Contact</a>
+        </div>
+        <div class="col">
+          <form action="Image is not processed">
+            <div>
+              <input type="email" placeholder="Email Address">
+            <a href="Image is not processed">Send</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="bottom_icon">
+      <img src="facebook.png" alt="Image not processed" class="bot_icon four">
+      <img src="youtube.png" alt="Image not processed" class="bot_icon five ">
+      <img src="linkedin.png" alt="Image not processed" class="bot_icon one ">
+        <img src="instagram.png" alt="Image not processed" class="bot_icon two">
+          <img src="twitter.png" alt="Image not processed" class="bot_icon three">
+      </div>
+    </section>
+
+   
+
+
+
+  <!-- PopUp -->
+  <div class="popup hide-popup">
+    <div class="popup-content">
+      <div class="popup-close">
+        <i class='bx bx-x'></i>
+      </div>
+      <div class="popup-left">
+        <div class="popup-img-container">
+          <img class="popup-img" src="./images/popup.jpg" alt="popup">
+        </div>
+      </div>
+      <div class="popup-right">
+        <div class="right-content">
+          <h1>Get Discount <span>50%</span> Off</h1>
+          <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+          </p>
+          <form action="#">
+            <input type="email" placeholder="Enter your email..." class="popup-form">
+            <a href="#">Subscribe</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="./js/slider.js"></script>
+  <script src="./js/index.js"></script>
+</html>
